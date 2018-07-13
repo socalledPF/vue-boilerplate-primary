@@ -1,2 +1,2 @@
 # vue-boilerplate
-在vue官方模版基础上增加一些目录，结构化项目，满足大部分项目需要
+一个vue的项目模版，用了vue全家桶 +  axios网络请求 + scss写样式 + babel转代码 + webpack打包 
