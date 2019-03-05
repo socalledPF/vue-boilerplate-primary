@@ -21,8 +21,12 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.scss/,
-        loader: 'sass-loader'
+        test: /\.css/,
+        use: ['vue-style-loader', 'css-loader']
+      },
+      {
+        test: /\.scss$/,
+        loader: ['vue-style-loader', 'css-loader','sass-loader']
       },
       {
         test: /\.(png|jpe?g|gif|svg)$/,

@@ -9,6 +9,9 @@
 
 </script>
 
-<style>
-
+<style scoped lang="scss">
+    h1 {
+        color: blue;
+        font-size: 20px;
+    }
 </style>
